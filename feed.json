@@ -2,17 +2,33 @@
 	"version": "https://jsonfeed.org/version/1",
 	"title": "Richard Tolhurst Smith",
 	"icon": "https://www.gravatar.com/avatar/53a4955bbe95e272ac44e851bfc567fe?s=96&d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png",
-	"home_page_url": "https://rts.micro.blog/",
-	"feed_url": "https://rts.micro.blog/feed.json",
+	"home_page_url": "https://tolhurst.org/",
+	"feed_url": "https://tolhurst.org/feed.json",
 	"items": [
 		
+			{
+				"id": "http://rts.micro.blog/2025/11/25/i-was-quite-excited-to.html",
+				
+				"content_html": "<p>I was quite excited to see Settlers 2 is getting an Amiga port. Then I saw the minimum specs required are higher than any Amiga that ever shipped! So who is this for, running only on Franken-Amigas, FPGAs and emulators? A500/A1200 port please. <a href=\"https://lookbehindyou.de/en/product/thesettlers2amiga/\">lookbehindyou.de/en/produc&hellip;</a></p>\n",
+				"content_text": "I was quite excited to see Settlers 2 is getting an Amiga port. Then I saw the minimum specs required are higher than any Amiga that ever shipped! So who is this for, running only on Franken-Amigas, FPGAs and emulators? A500/A1200 port please. [lookbehindyou.de/en/produc...](https://lookbehindyou.de/en/product/thesettlers2amiga/)\n",
+				"date_published": "2025-11-25T03:21:58+00:00",
+				"url": "https://tolhurst.org/2025/11/25/i-was-quite-excited-to.html"
+			},
+			{
+				"id": "http://rts.micro.blog/2025/11/22/you-should-never-buy-from.html",
+				
+				"content_html": "<p>You should never buy from John Lewis. Their behaviour is so egregiously bad no amount of 1 star reviews would cover it, yet it doesn’t get reported in the press so most are unaware. <a href=\"https://old.reddit.com/r/LegalAdviceUK/comments/1p42jzw/update_john_lewis_ipad_non_delivery_claim_england/\">old.reddit.com/r/LegalAd&hellip;</a></p>\n",
+				"content_text": "You should never buy from John Lewis. Their behaviour is so egregiously bad no amount of 1 star reviews would cover it, yet it doesn’t get reported in the press so most are unaware. [old.reddit.com/r/LegalAd...](https://old.reddit.com/r/LegalAdviceUK/comments/1p42jzw/update_john_lewis_ipad_non_delivery_claim_england/)\n",
+				"date_published": "2025-11-22T21:48:24+00:00",
+				"url": "https://tolhurst.org/2025/11/22/you-should-never-buy-from.html"
+			},
 			{
 				"id": "http://rts.micro.blog/2025/11/22/apparently-the-steam-frame-vr.html",
 				
 				"content_html": "<p>Apparently the Steam Frame VR headset will have perfect x86 emulation on ARM. That’s cool; it means the next Steam Deck could be ARM and so be cheaper/faster/lighter. But what about if a dev wants to avoid the emulation, can they ship native binaries? <a href=\"https://www.igalia.com/2025/11/helpingvalve.html\">www.igalia.com/2025/11/h&hellip;</a></p>\n",
 				"content_text": "Apparently the Steam Frame VR headset will have perfect x86 emulation on ARM. That’s cool; it means the next Steam Deck could be ARM and so be cheaper/faster/lighter. But what about if a dev wants to avoid the emulation, can they ship native binaries? [www.igalia.com/2025/11/h...](https://www.igalia.com/2025/11/helpingvalve.html)\n",
 				"date_published": "2025-11-22T17:48:28+00:00",
-				"url": "https://rts.micro.blog/2025/11/22/apparently-the-steam-frame-vr.html"
+				"url": "https://tolhurst.org/2025/11/22/apparently-the-steam-frame-vr.html"
 			},
 			{
 				"id": "http://rts.micro.blog/2025/11/20/has-anyone-managed-to-get.html",
@@ -20,7 +36,7 @@
 				"content_html": "<p>Has anyone managed to get a subscription to Cerebras? They keep announcing but seem to be permanently “sold out”.  <a href=\"https://www.cerebras.ai/blog/glm\">www.cerebras.ai/blog/glm</a> The theory seems to be it isn’t as good as Claude but makes up for it by being faster?</p>\n",
 				"content_text": "Has anyone managed to get a subscription to Cerebras? They keep announcing but seem to be permanently “sold out”.  [www.cerebras.ai/blog/glm](https://www.cerebras.ai/blog/glm) The theory seems to be it isn’t as good as Claude but makes up for it by being faster?\n",
 				"date_published": "2025-11-20T00:23:51+00:00",
-				"url": "https://rts.micro.blog/2025/11/20/has-anyone-managed-to-get.html"
+				"url": "https://tolhurst.org/2025/11/20/has-anyone-managed-to-get.html"
 			},
 			{
 				"id": "http://rts.micro.blog/2025/11/19/login-to-website-find-email.html",
@@ -28,7 +44,7 @@
 				"content_html": "<p>Login to website</p>\n<ol>\n<li>Find email address. I usually use unique addresses so this should be enough to identify me?</li>\n<li>Remember my cookies? No it never remembers me.</li>\n<li>Verify email. Wait for it to come through. Annoying</li>\n<li>Verify phone number. What if it lost my phone?</li>\n<li>Enter TOTP code. Quick, before it disappears! Again, what if lost phone?</li>\n</ol>\n<p>Why can’t we just have one digital identify that handles all this?</p>\n",
 				"content_text": "Login to website\n1. Find email address. I usually use unique addresses so this should be enough to identify me?\n2. Remember my cookies? No it never remembers me. \n3. Verify email. Wait for it to come through. Annoying\n4. Verify phone number. What if it lost my phone?\n5. Enter TOTP code. Quick, before it disappears! Again, what if lost phone?\n\nWhy can’t we just have one digital identify that handles all this?\n",
 				"date_published": "2025-11-19T03:02:00+00:00",
-				"url": "https://rts.micro.blog/2025/11/19/login-to-website-find-email.html"
+				"url": "https://tolhurst.org/2025/11/19/login-to-website-find-email.html"
 			}
 	]
 }
