@@ -24,6 +24,66 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://tolhurst.org/2026/01/22/an-os-for-a-powerpc.html">An OS for a PowerPC Macintosh</a></h1>
+		
+
+		<a href="https://tolhurst.org/2026/01/22/an-os-for-a-powerpc.html" class="u-url"><time class="dt-published" datetime="2026-01-22 19:14:55 &#43;0000">Jan 22, 2026</time></a>
+
+		<div class="e-content">
+			 <p>Apple has used four different CPU architectures for its Macintosh computers.  The second, used around the turn of the century, was PowerPC.  I have an iMac with a G5.  It&rsquo;s not quite as powerful as the G5 Mac Pro, or indeed even a modern Raspberry Pi, but with 1 GB of RAM it <strong>ought</strong> to be able still to run many useful applications rather than being consigned to the scrapheap.</p>
+<p>However, what it can run is dependent on its operating system. So which one to choose?</p>
+<h2 id="macos-104-tiger">MacOS 10.4 Tiger</h2>
+<p>The original OS supplied with the machine looks nice and runs fast, but there is little software available. There&rsquo;s no iTerm and the Terminal.app is poor even for running terminal apps. There is a &lsquo;tiger brew&rsquo; fork of Homebrew available with some modern programs but they take a long time to compile.</p>
+<h2 id="macos-105-leopard">Macos 10.5 Leopard</h2>
+<p>Also officially supported by Apple, it runs a little slower but has more features. There is a &lsquo;Sorbet Leopard&rsquo; modded version available that streamlines and backports features amd seems to work well. There&rsquo;s iTerm2 and Terminal.app is better so this could be usable as a remote terminal. There&rsquo;s ChickenVNC for running apps remotely but I could&rsquo;t get it to work with modern VNC servers. There&rsquo;s a PPC fork of Macports available - I haven&rsquo;t tried but it says 10.6 is preferred for Macports. There&rsquo;s a web-browser, Aquafox, but support for modern websites is pretty limited.</p>
+<h2 id="macos-106-snow-leopard">Macos 10.6 Snow Leopard</h2>
+<p>Never officially released for PPC chips, only for Intel, there is a hacked version based on a preview release from before PPC support was removed. This is the recommended OS for Macports but unfortunately I found it to be very unstable and can&rsquo;t recommend it.</p>
+<h2 id="adelie-linux">Adelie Linux</h2>
+<p>This obscure distro seems to be the most recommended for PPC support. (Debian still builds for PPC in Sid but doesn&rsquo;t publish releases.) To my surprise it does actually work (provided you install &lsquo;beta 5&rsquo; and not the latest &lsquo;beta 6&rsquo;) ! And for terminal usage it&rsquo;s pretty good - you get a full modern terminal. However X11 graphics acceleration doesn&rsquo;t work. So any desktop apps are frustrating slow.  There are reports of old drivers that did work, and source code patches that might work, but currently no-one cares about PPC platform enough to actually debug this. Perhaps as a consequence of this, Firefox (the supplied browser) won&rsquo;t even run.  Also the Grub bootloader doesn&rsquo;t install properly and requires manual intervention to boot.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>So for terminal work, MacOS 10.5 and Adelie Linux are both acceptable. Beyond that nothing is really usable.</p>
+<h2 id="to-do">To do:</h2>
+<p>Try to find software that runs on Linux framebuffer, perhaps a VNC client, which may run faster than using the usual X11 desktop.</p>
+<p>Try MorphOS.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://tolhurst.org/2025/12/04/there-have-been-several-c.html" class="u-url"><time class="dt-published" datetime="2025-12-04 10:38:40 &#43;0000">Dec 4, 2025</time></a>
+
+		<div class="e-content">
+			 <p>There have been several C compilers for 8 bit CPUs but the language was just so ill suited you’d be better advised to use Pascal if you needed a high level language with good performance. Just found <a href="https://github.com/drmortalwombat/oscar64">github.com/drmortalw&hellip;</a> which claims to approach the performance of ASM.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://tolhurst.org/2025/12/04/apple-just-dont-seem-capable.html" class="u-url"><time class="dt-published" datetime="2025-12-04 05:14:45 &#43;0000">Dec 4, 2025</time></a>
+
+		<div class="e-content">
+			 <p>Apple just don’t seem capable of writing an IPv6 stack that isn’t buggy. My 20 year old iMac recently started crashing every 30 seconds. What changed? It picked up a v6 address.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://tolhurst.org/2025/12/04/appletv-has-no-option-to.html" class="u-url"><time class="dt-published" datetime="2025-12-04 05:12:52 &#43;0000">Dec 4, 2025</time></a>
+
+		<div class="e-content">
+			 <p>AppleTV has no option to disable IPv6. It has the usual options to configure IPv4 addresses, but nothing for 6. Why does it matter? Because if the thing gets allocated a v6 address by the router it uses so much CPU that it can’t decide h265 video in real-time anymore.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 
 		<a href="https://tolhurst.org/2025/11/26/a-lot-of-software-perhaps.html" class="u-url"><time class="dt-published" datetime="2025-11-26 13:18:26 &#43;0000">Nov 26, 2025</time></a>
 
